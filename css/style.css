@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	font: 15px/1.5 Calibri, Arial, Helvetica, sans-serif;
+}
+/*Header*/
+
+#logo{
+	float: left;
+	width: 250px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+header{
+	background: #ffffff;
+	position: fixed;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #32a0c2 3px solid;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: 100;
+	opacity: 0.90;
+}
+header a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav {
+	float:right;
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+header .highlight, header .current a{
+	color:#32a0c2;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+.contain{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 60px;
+	border-top: #f2f2f2 3px solid;
+	
+}		
+
+/*showcase*/
+
+#showcase {
+	min-height: 400px;
+	background: url(../img/3.jpg) no-repeat center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;	
+	margin-top: 80px;
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+.btn{
+	padding: 15px;
+	background: #32a0c2;
+	border: none;
+	border-radius: 1.5px;
+	color: #fff;
+	font-size: 17px;
+
+}
+
+.btn:hover{
+	background: #1E90FF;
+	padding: 15px;
+	border: none;
+	border-radius: 1.5px;
+	color: #fff;
+	font-size: 17px;
+	cursor: pointer;
+}
+.btn{
+	margin-top: 15px;
+}
+
+
+
+
+.abt{
+	margin: 10px 0 30px 0;
+	text-align: center;
+}
+.abt p{
+	padding: 0 36% 0 36%;
+	font-family: tahoma;
+	font-size: 16px;
+}
+.abt h2, .serv h2{
+	color: #32a0c2;
+	font-size: 35px;
+}
+
+.serv {
+	background-color: #f4f5f6;
+	text-align: center;
+}
+.sub-serv1{
+	display: inline-block;
+	padding: 2%;
+}
+.chanel{
+	background: #32a0c2;
+	text-align: center;
+	color: #fff;
+	
+}
+.sub-chanel{
+	display: inline-block;
+	padding: 0 15px 0 15px; 
+	width: 300px;
+	text-align: left;
+	margin-bottom: auto;
+}
+.chanel .logo{
+	width: 100px;
+	margin-bottom: 80px;
+}
+.chanel a{
+
+	text-decoration: none;
+	color: #fff;
+}
+.chanel h3{
+	text-transform: uppercase;
+	text-align: top;
+}
+.chanel .social{
+	width: 40px;
+	height: 40px;
+
+}
+footer{
+	padding: 10px;
+	color: #ffffff;
+	background-color: #4A708B;
+	text-align: center;
+	border-top: #fff 2px solid;
+}
+
+
+/*About page*/
+
+#about_showcase{
+	min-height: 400px;
+	background: url(../img/about.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin-top: 80px;
+}
+#btnabt{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.btnabt{
+	padding: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #f1f1f1;
+	border-radius: 3px;
+	cursor: pointer;
+	border-style: none;	
+}
+.btnabt:hover{
+	color: #32a0c2;
+}
+
+.hist, .ceo, .mission, .vision, .naija, .correct{
+	display: inline-block;
+}
+.hist{
+	float: left;
+	width: 60%;
+	margin-left: 60px;
+}
+.ceo{
+	float: right;
+	margin-right: 80px; 
+	text-align: center;
+	background:  #f1f1f1;
+	width: 190px; 
+
+}
+.ceo img{
+	 width: 190px; 
+	 height: 250px;
+	 /*margin-bottom: 0;*/
+}
+.container p {
+	font-size: 18px;
+}
+.ceo h2, .hist h2, .ceo p, .vision h2, .mission h2, .naija h1{
+	color: #32a0c2;
+}
+.mission{
+	float: left;
+	width: 400px;
+}
+.mission img{
+	width: 400px;
+	height: 250px;
+	margin-left: 60px;
+}
+.vision{
+	float: right;
+	width: 55%;
+	text-align: left;
+	margin-right: 80px;
+}
+.naija{
+	float: right;
+	width: 30%;
+	margin-right: 80px;
+	text-align: left;
+}
+.correct{
+	width: 55%;
+}
+.correct img{
+	width: 650px;		
+}
+
+
+
+/*Services page*/
+
+#services_showcase{
+	min-height: 400px;
+	background: url(../img/services.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin-top: 80px;
+}	
+
+/*contact us*/
+
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
